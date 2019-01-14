@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "hello-now-ts",
+    "alias": "hello-now-ts",
+    "builds": [
+      { "src": "src/index.ts", "use": "@now/node-server@canary" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/src/index.ts" }
+    ]
+  }
+  

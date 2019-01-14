@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "send-data": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
+}
